@@ -381,8 +381,15 @@ footer {
         background: url('../img/logo-lit.png')
     }
     nav a:hover {
-        color: #FF7F00;
-    }
+		color: #FF7F00;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+	
+	nav a.inactive:hover {
+		text-decoration: line-through;
+	}
+
     button {
         background: transparent;
         color: black;
